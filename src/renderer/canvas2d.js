@@ -291,7 +291,8 @@ var Canvas2dRenderer = (function Canvas2dRendererClosure() {
       var max = this._max;
       var min = this._min;
 
-      value = (Math.abs(max-min) * (data/255)) >> 0;
+    //   value = (Math.abs(max-min) * (data/255)) >> 0;
+      value = (Math.abs(max-min) * (data > 0 ? shadowCtx.globalAlpha : 0)) >> 0;
 
       return value;
     },
