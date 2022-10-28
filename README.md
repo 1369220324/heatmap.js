@@ -13,7 +13,7 @@ Dynamic Heatmaps for the Web.
 
 heatmap.js is also hosted on npm:
 
-`npm install @mars3d/heatmap.js`
+`npm i special-heatmap.js`
 
 
 
